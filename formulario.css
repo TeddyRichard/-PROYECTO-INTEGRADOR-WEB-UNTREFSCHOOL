@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body
+{
+    background-color: #EFF5F5;
+}
+.form
+{
+    width: 400px;
+    background-color:  #00425A;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 6px;
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 7px 13px 37px #000;
+}
+.form h3
+{
+    font: size 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.controls
+{
+    width: 100%;
+    background-color:  #EFF5F5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid red;
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #181823;
+}
+.form p
+{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.form .boton
+{
+    width: 100%;
+    background-color:  #1F8A70;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.form .boton:hover
+{
+    background-color:#FC7300 ;
+}

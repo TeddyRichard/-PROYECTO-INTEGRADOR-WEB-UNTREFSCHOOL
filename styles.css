@@ -21,8 +21,10 @@ header
     width: auto;
     height: 500px;
     grid-area: header;
-    overflow: hidden;
-}
+    overflow: hidden; 
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Playfair Display', serif;
+}   
 .slider
 {
     
@@ -63,6 +65,8 @@ header
 nav 
 {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-top: 10px;
     gap: 40px;
 }
@@ -92,17 +96,24 @@ main
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 1px;
+    font-family: 'Gentium Book Plus', serif; 
+    font-family: 'Playfair Display', serif;
 }
 section
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: 1px solid #181823;
+    border: 1px solid ;
 }
-section h2
+img
 {
-    margin-top: 10px;
+    border-radius: 10px;
 }
+.section
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 footer
 {
     display: grid;
@@ -111,6 +122,8 @@ footer
     background-color: #1F8A70;
     display: flex;
     justify-content: space-around;
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Playfair Display', serif;
 }
 footer h3
 {
