@@ -6,7 +6,26 @@
 }
 body
 {
+    width: 60%;
+    margin: auto;
     background-color: #EFF5F5;
+}
+nav
+{
+    margin-top: 20px;
+}
+ nav a
+{
+    background-color:  #1F8A70 ;
+    color: snow;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 3px 3px 5px gray
+}
+nav a:hover
+{
+    background-color: #FC7300;
 }
 .form
 {
@@ -58,4 +77,12 @@ body
 .form .boton:hover
 {
     background-color:#FC7300 ;
+}
+@media screen and (max-width: 768px)
+{
+    .container
+    {
+    width: 768px;
+    margin: auto;
+    }
 }

@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="formulario.css">
 </head>
 <body>
+    <div class="container">
+    <nav>
+        <a href="index.html">Volver</a>
+    </nav>
     <main class="form">
         <h3>Formulario de Contacto</h3>
-        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre">
-        <input class="controls" type="text" name="apellido" id="apellido" placeholder="Apellido">
-        <input class="controls" type="email" name="correo" id="correo" placeholder="Correo electrónico">
-        <textarea class="controls" name="comentario" id="comentario" placeholder="Comentario" cols="20" rows="5">
-        </textarea>
-        <input class="boton" type="submit" value="Enviar">
-    </main> 
+            <form action="" method="post">
+                <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                <input class="controls" type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                <input class="controls" type="email" name="correo" id="correo" placeholder="Correo electrónico" required>
+                <textarea class="controls" name="comentario" id="comentario" cols="20" rows="5" placeholder="Ingrese su comentario">
+                </textarea>
+                <button class="boton" type="submit">Enviar</button>
+            </form> 
+    </main>
+    </div>
 </body>
 </html>
