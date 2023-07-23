@@ -1,3 +1,4 @@
+
 *
 {
     margin: 0;
@@ -104,7 +105,7 @@ section
     border: 1px solid  #1F8A70;
 }
 
-img
+main img
 {
     margin-top: 10px;
     border-radius: 10px;
@@ -170,7 +171,7 @@ footer h3
     border: 1px solid ;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 470px 1fr 100%;
+    grid-template-rows: 460px 1fr 100%;
     grid-template-areas: "header" "main" "footer";
     } 
     
@@ -207,7 +208,7 @@ footer h3
     border: 1px solid ;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 500px 1fr 100%;
+    grid-template-rows: 470px 1fr 100%;
     grid-template-areas: "header" "main" "footer";
     } 
     header nav
@@ -232,6 +233,7 @@ footer h3
     }
     
 }
+
     
 
     

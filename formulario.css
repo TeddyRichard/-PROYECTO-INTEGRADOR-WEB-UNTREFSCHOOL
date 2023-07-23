@@ -17,7 +17,7 @@ nav
  nav a
 {
     background-color:  #1F8A70 ;
-    color: snow;
+    color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -80,9 +80,25 @@ nav a:hover
 }
 @media screen and (max-width: 768px)
 {
+    body
+    {
+        width: 768px;
+        margin: auto;
+    }
     .container
     {
-    width: 768px;
-    margin: auto;
+    width: 768px;    
+    }
+}
+@media screen and (max-width: 320px)
+{
+    body 
+    {
+        width: 320px;
+        margin: auto;
+    }  
+     .container
+    {
+     width: 320px;     
     }
 }
